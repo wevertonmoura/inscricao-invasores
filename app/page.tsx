@@ -105,7 +105,7 @@ const Countdown = () => {
 const FAQSection = () => {
   const faqs = [
     { p: "Preciso pagar algo?", r: "Não! O treino é 100% gratuito e aberto ao público." },
-    { p: "Tem guarda-volumes?", r: "Não teremos estrutura oficial de guarda-volumes. Recomendamos levar apenas o essencial." },
+    { p: "Tem guarda-volumes?", r: "Si teremos estrutura oficial de guarda-volumes. Recomendamos levar apenas o essencial." },
     { p: "Iniciante pode ir?", r: "Com certeza! Temos a opção de 3km caminhada/trote justamente para quem está começando." },
   ];
 
@@ -370,7 +370,7 @@ const RegistrationForm = () => {
     const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(EVENT_CONFIG.name)}&dates=20260125T093000Z/20260125T130000Z&details=${encodeURIComponent(EVENT_CONFIG.tagline)}&location=${encodeURIComponent(EVENT_CONFIG.location)}`;
 
     return (
-      <div id="inscricao" className="bg-slate-950 px-4 py-20 pb-32">
+      <div id="inscricao" className="bg-slate-950 px-4 pt-20 pb-4">
         <div className="container mx-auto max-w-lg">
           <div className="text-center mb-6">
             <h2 className="text-3xl font-black text-white italic uppercase mb-2">Tudo Certo!</h2>
@@ -598,7 +598,7 @@ export default function LandingPage() {
       <FAQSection />
       <RegistrationForm />
       
-      <footer className="bg-slate-950 pt-12 pb-8 border-t border-slate-900 relative overflow-hidden">
+      <footer className="bg-slate-950 pt-8 pb-8 border-t border-slate-900 relative overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg h-1 bg-gradient-to-r from-transparent via-orange-500/50 to-transparent blur-sm"></div>
 
         <div className="container mx-auto px-4 text-center">
