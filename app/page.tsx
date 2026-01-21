@@ -105,7 +105,7 @@ const Countdown = () => {
 const FAQSection = () => {
   const faqs = [
     { p: "Preciso pagar algo?", r: "Não! O treino é 100% gratuito e aberto ao público." },
-    { p: "Tem guarda-volumes?", r: "Si teremos estrutura oficial de guarda-volumes. Recomendamos levar apenas o essencial." },
+    { p: "Tem guarda-volumes?", r: "Sim teremos estrutura oficial de guarda-volumes. Recomendamos levar apenas o essencial." },
     { p: "Iniciante pode ir?", r: "Com certeza! Temos a opção de 3km caminhada/trote justamente para quem está começando." },
   ];
 
